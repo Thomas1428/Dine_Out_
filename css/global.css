@@ -1,0 +1,39 @@
+:root {
+    --main-color: #f1b601;
+    --white: #fff;
+    --layer-color: rgba(0, 0, 0, .7)
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Dancing Script,cursive
+}
+
+p {
+    color: var(--white-light)
+}
+
+.font-1 {
+    font-family: Dancing Script,cursive
+}
+
+.font-2 {
+    font-family: Poppins,sans-serif
+}
+
+.font-3 {
+    font-family: Roboto,sans-serif
+}
+
+a:focus {
+    box-shadow: none!important
+}
+
+.header h4 {
+    color: var(--main-color)
+}
+
+.header h2 {
+    font-family: Poppins,sans-serif;
+    font-size: 40px
+}
+

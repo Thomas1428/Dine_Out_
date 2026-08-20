@@ -1,0 +1,85 @@
+@keyframes rotate {
+    0% {
+        transform: rotate(0)
+    }
+
+    0% {
+        transform: rotate(360deg)
+    }
+}
+
+
+@keyframes upDown {
+    0% {
+        transform: translateY(0)
+    }
+
+    to {
+        transform: translateY(-25px)
+    }
+}
+
+
+@keyframes span-top {
+    0% {
+        top: 5px
+    }
+
+    50% {
+        top: 15px
+    }
+
+    to {
+        top: 15px;
+        transform: translate(-50%,-50%) rotate(45deg)
+    }
+}
+
+
+@keyframes span-bottom {
+    0% {
+        top: 25px
+    }
+
+    50% {
+        top: 15px
+    }
+
+    to {
+        top: 15px;
+        transform: translate(-50%,-50%) rotate(-45deg)
+    }
+}
+
+
+
+@keyframes rotate-box {
+    0% {
+        transform: translate(-50%,-50%) rotate(0)
+    }
+
+    to {
+        transform: translate(-50%,-50%) rotate(360deg)
+    }
+}
+
+
+@keyframes bike {
+    20% {
+        opacity: 1;
+        left: 0;
+        transform: translateY(-30px)
+    }
+
+    50% {
+        left: 0;
+        opacity: 1;
+        transform: translateY(0)
+    }
+
+    70% {
+        opacity: 0;
+        left: 200%;
+        transform: translateY(0)
+    }
+}
